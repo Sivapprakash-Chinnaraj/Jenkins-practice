@@ -15,6 +15,7 @@ pipeline{
                 echo 'Application Built'
                 sh 'pwd'
                 sh 'python3 --version'
+                sh 'python3 app.py'
             }
         }
     }
